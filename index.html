@@ -12,7 +12,7 @@
 		font-size: 16px;
 		color: #263238;
 		font-family: 'Roboto Slab';
-		-webkit-font-smoothing: antialiased;
+        -webkit-font-smoothing: antialiased;
 		}
 
 		*, *:before, *:after {
@@ -147,7 +147,14 @@
 		}
 		.section__content {
 			padding-left: 90px;
-		}
+        }
+        a{
+            text-decoration: none;
+            color: white;
+        }
+        a:hover{
+            color: #90a4ae;
+        }
 	</style>
 </head>
 <body>
@@ -155,7 +162,7 @@
 	<div class="wrapper flex">
 		<div class="sidebar">
 			<div class="avatar">
-				<img src="images/avatar.jpg" width="215" height="215" alt="avatar" />
+				<img src="./images/avatar.jpg" width="215" height="215" alt="avatar" />
 				<h1 class="name">NGUYỄN THÀNH CÔNG</h1>
 				<h4 class="job"></h4>
 	        </div>
@@ -173,7 +180,9 @@
 						</li><br>
 						<li class="flex">
 							<i class="fa fa-globe circle circle--small circle--white"></i>
-							<div>GMAIL:<br>thanhcongn112@gmail.com</div>
+							<nav>
+                                <a href="#">Gmail:<br>thanhcongn112@gmail.com</a>
+                            </nav>
 						</li>
 						<li class="flex">
 							<i class="fa fa-mobile circle circle--small circle--white"></i>
